@@ -1,0 +1,5 @@
+<ul>
+  <%= @students.map do |student| %>
+  <li><%= student.first_name %> <%= student.last_name %></li>
+  <% end %>
+</ul>
